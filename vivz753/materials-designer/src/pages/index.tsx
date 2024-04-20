@@ -58,7 +58,7 @@ export default function Home() {
     })
   }
 
-  const [hideExplorer, setHideExplorer] = useState<boolean>(false)
+  const [hideExplorer, setHideExplorer] = useState<boolean>(true)
 
   return (
     <>
