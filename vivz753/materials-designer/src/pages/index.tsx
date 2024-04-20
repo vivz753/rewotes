@@ -66,7 +66,7 @@ export default function Home() {
       <div className="flex min-h-screen w-full bg-dark2 pt-20">
         <div className="flex w-full flex-row">
           <Explorer hide={hideExplorer} setHide={setHideExplorer} />
-          <div className="smooth-transition-all flex w-full flex-col-reverse lg:flex-row">
+          <div className="smooth-transition-all flex w-full flex-col-reverse md:flex-row">
             <SourceEditor handleEditor={handleEditor} input={input} />
             <Visualizer latticeVectors={latticeVectors} pointVectors={pointVectors} />
           </div>
